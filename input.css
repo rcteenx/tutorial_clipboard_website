@@ -16,6 +16,9 @@
 .section-content {
   @apply max-w-3xl mx-auto leading-9 text-center text-grayishBlue;
 }
+.button-container {
+  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
 
 body {
   background-image: url("../images/bg-header-desktop.png");
@@ -29,4 +32,8 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+}
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
